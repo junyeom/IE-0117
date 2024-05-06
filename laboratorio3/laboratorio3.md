@@ -20,6 +20,11 @@ En este laboratorio, como prerrequisito es necesario tener un conocimiento bási
 
 Un número triangular es un número figurado que se puede representar mediante una red triangular de puntos en donde la primera fila contiene un elemento único, y cada fila subsecuente contiene un elemento más que el anterior. Dicho en términos más formales, un número triangular es un número obtenido meidante la suma de todos los enteros positivos menores o igual que un número entero positivo *n*.
 
+<div align="center">
+  <img src="images/TriangularNumber.png">
+  <h6 align="center">Figura 1. Ilustración de números triangulares.</h6>
+</div>
+
 El factorial de un número entero positivo n se define mediante la siguiente expresión:
 
 $$n!=n(n-1)(n-2)...(2)(1)$$
