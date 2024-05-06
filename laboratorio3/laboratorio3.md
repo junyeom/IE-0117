@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/junyeom/IE-0117">
-    <img src="https://github.com/junyeom/IE-0117/images/KR.png" alt="Programacion" width="80" height="80">
+    <img src="images/KR.png" alt="Programacion" width="80" height="80">
   </a>
 
   <h3 align="center">Laboratorio 3</h3>
