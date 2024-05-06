@@ -75,7 +75,25 @@ Sin embargo, en el main ya se le pasaron enteros positivos a la función *factor
 
 ### Ejercicio 3
 
+Una matriz de dos dimensiones se puede recorrer con dos ciclos for; el primer ciclo recorre cada fila, mientras que el segundo ciclo recorre cada columna. El problema solicita calcular el tamaño del cuadrado de 1s más grande dentro de la matriz. Al resolver problemas de programación, es útil segmentar el problema principal e implementar un algoritmo "en papel" para cada segmento antes de construir la solución. 
 
+En este caso, se podría decir que, como prerrequisito de tener un cuadrado de 1s, es necesario verificar la existencia de por lo menos un 1 en la matriz. Tras cumplir esta condición, seguiría buscar filas sin interrumpir de 1s fila por fila hasta inspeccionar toda la matriz. Así, por cada fila es posible obtener la fila sin interrumpir más grande de 1s. Una posible manera de implementar este algoritmo en código es mediante el uso de if, y si se van cumpliendo las condiciones mencionadas, un contador irá guardando el tamaño de la fila sin interrumpir más grande de 1s.
+
+|0|1|1|1|0||3
+|0|1|1|1|1||4
+|1|1|1|1|0||4
+|0|1|1|0|1||2
+|1|0|1|0|1||1
+
+Sin embargo, esto no es suficiente para encontrar un cuadrado de 1s porque las filas de 1s pueden estar desalineadas una de la otra. Por lo tanto, es necesario conservar la información de la coordenada en donde se encontró la fila sin interrumpir más grande de 1s. Para esto, es conveniente utilizar una matriz auxiliar de 0s del mismo tamaño que la matriz principal, en la cual se vaya guardando el tamaño de la fila de 1s más grande que se vaya encontrando en la matriz principal. Así, se cumple el objetivo de conservar la coordenada de cada fila de 1s.
+
+|0|1|2|3|0|
+|0|1|2|3|4|
+|1|2|3|4|0|
+|0|1|2|0|1|
+|1|0|1|0|1|
+
+Tras obtener la matrix auxiliar, se recorre con dos ciclos for para buscar elemento por elemento la columna de tamaños sin interrumpir más grande posible. Por ejemplo, si en la matriz auxiliar el ciclo encuentra un 2, debe buscar un elemento mayor o igual que 2 arriba o abajo. Si lo encuentra, quiere decir que existe por lo menos un cuadrado de 1s de 2x2. Si encuentra un 3, debe buscar un elemento mayor o igual que 3 arriba o abajo, y otro elemento mayor o igual que 3 contiguo al par de 3 que se encontró. Es decir, si el ciclo se encuentra un *n*, debe encontrar una cantidad *n* de elementos mayores o iguales que *n* contiguos en la columna.
 
 ## Resultados
 
