@@ -21,7 +21,7 @@ En este laboratorio, como prerrequisito es necesario tener un conocimiento bási
 Un número triangular es un número figurado que se puede representar mediante una red triangular de puntos en donde la primera fila contiene un elemento único, y cada fila subsecuente contiene un elemento más que el anterior. Dicho en términos más formales, un número triangular es un número obtenido meidante la suma de todos los enteros positivos menores o igual que un número entero positivo *n*.
 
 <div align="center">
-  <img src="images/TriangularNumber.png" width="300" height="100">
+  <img src="images/TriangularNumber.png" width="400" height="100">
   <h4 align="center">Figura 1. Ilustración de números triangulares.</h4>
 </div>
 
@@ -67,7 +67,11 @@ En C, el operador ++ permite ir guardando el resultado de las sumas previas en u
 
 ### Ejercicio 2
 
+Si el objetivo del ejercicio 1 era diseñar, el objetivo del ejercicio 2 es identificar el error. El código del enunciado contiene una función *factorial* y un main que la llama. Al inspeccionar la función, es posible concluir que la lógica está bien construida, aunque esto no la exima de pruebas para verificar su ejecución.
 
+Al leer el main, el primer detalle a notar es que recibe argumentos de tipo argc y argv. Cabe recordar que **argc** es un número entero positivo que contiene la cantidad de argumentos de argv, mientras que **argv** es un arreglo de strings que representan los argumentos ingresados por el usuario en la línea de comando; el primer elemento de dicho arreglo es el nombre de archivo.
+
+Sin embargo, en el main ya se le pasaron enteros positivos a la función *factorial*, por lo que argc y argv no son necesarios. Incluso, en lugar de pasarle enteros positivos directamente a la función *factorial*, es posible mediante scanf solicitarle un número al usuario, y utilizar dicho número como argumento.
 
 ### Ejercicio 3
 
