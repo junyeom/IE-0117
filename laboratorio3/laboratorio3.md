@@ -6,7 +6,8 @@
   <h3 align="center">Laboratorio 3</h3>
 
   <p align="center">
-    Reporte de laboratorio
+    Jun Hyun Yeom Song
+    B17326
   </p>
 </div>
 
