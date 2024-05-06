@@ -112,14 +112,14 @@ Es decir, si el ciclo se encuentra un *n*, debe encontrar una cantidad *n* de el
 Al compilar el archivo ej1.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
 <div align="center">
-  <img src="images/ej1A.png" width="400" height="150">
+  <img src="images/ej1A.png" width="400" height="160">
   <h4 align="center">Figura 2. Primeros 10 números triangulares de la secuencia.</h4>
 </div>
 
 Para no mostrar todos los 100 números, se muestran los primeros 10 y los últimos 10 números triangulares de la secuencia ejecutada.
 
 <div align="center">
-  <img src="images/ej1B.png" width="400" height="200">
+  <img src="images/ej1B.png" width="400" height="175">
   <h4 align="center">Figura 3. Últimos 100 números triangulares de la secuencia.</h4>
 </div>
 
@@ -128,14 +128,14 @@ Para no mostrar todos los 100 números, se muestran los primeros 10 y los últim
 Al compilar el archivo ej2A.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
 <div align="center">
-  <img src="images/ej2A.png" width="400" height="75">
+  <img src="images/ej2A.png" width="400" height="70">
   <h4 align="center">Figura 3. Ejecución de ej2A.c.</h4>
 </div>
 
 Al compilar el archivo ej2B.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
 <div align="center">
-  <img src="images/ej2B.png" width="400" height="75">
+  <img src="images/ej2B.png" width="400" height="70">
   <h4 align="center">Figura 4. Ejecución de ej2B.c.</h4>
 </div>
 
