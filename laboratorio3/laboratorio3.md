@@ -109,15 +109,37 @@ Es decir, si el ciclo se encuentra un *n*, debe encontrar una cantidad *n* de el
 
 ### Ejercicio 1
 
+Al compilar el archivo ej1.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
+<div align="center">
+  <img src="images/ej1.png" width="400" height="400">
+  <h4 align="center">Figura 2. Ejecución de ej1.c.</h4>
+</div>
 
 ### Ejercicio 2
 
+Al compilar el archivo ej2A.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
+<div align="center">
+  <img src="images/ej2A.png" width="400" height="400">
+  <h4 align="center">Figura 3. Ejecución de ej2A.c.</h4>
+</div>
+
+Al compilar el archivo ej2B.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
+
+<div align="center">
+  <img src="images/ej2A.png" width="400" height="400">
+  <h4 align="center">Figura 4. Ejecución de ej2B.c.</h4>
+</div>
 
 ### Ejercicio 3
 
+Al compilar el archivo ej3A.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
+<div align="center">
+  <img src="images/ej3A.png" width="400" height="400">
+  <h4 align="center">Figura 5. Ejecución de ej3A.c.</h4>
+</div>
 
 ## Conclusiones
 
