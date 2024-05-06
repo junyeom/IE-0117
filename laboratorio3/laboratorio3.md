@@ -6,9 +6,7 @@
   <h3 align="center">Laboratorio 3</h3>
 
   <p align="center">
-    Jun Hyun Yeom Song
-    
-    B17326
+    Jun Hyun Yeom Song (B17326)
   </p>
 </div>
 
