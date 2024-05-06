@@ -132,12 +132,16 @@ Al compilar el archivo ej2A.c y correr el ejecutable, se obtiene el siguiente re
   <h4 align="center">Figura 4. Ejecución de ej2A.c.</h4>
 </div>
 
+Se ha corregido el error y el código ejecuta su tarea correctamente.
+
 Al compilar el archivo ej2B.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
 <div align="center">
   <img src="images/ej2B.png" width="400" height="60">
   <h4 align="center">Figura 5. Ejecución de ej2B.c.</h4>
 </div>
+
+Tras haber corregido el error, se implementó exitosamente un scanf para solicitarle al usuario el número al cual se le calculará el factorial.
 
 ### Ejercicio 3
 
