@@ -97,7 +97,13 @@ Sin embargo, esto no es suficiente para encontrar un cuadrado de 1s porque las f
 |F4|0|1|2|0|1|
 |F5|1|0|1|0|1|
 
-Tras obtener la matrix auxiliar, se recorre con dos ciclos for para buscar elemento por elemento la columna de tamaños sin interrumpir más grande posible. Por ejemplo, si en la matriz auxiliar el ciclo encuentra un 2, debe buscar un elemento mayor o igual que 2 arriba o abajo. Si lo encuentra, quiere decir que existe por lo menos un cuadrado de 1s de 2x2. Si encuentra un 3, debe buscar un elemento mayor o igual que 3 arriba o abajo, y otro elemento mayor o igual que 3 contiguo al par de 3 que se encontró. Es decir, si el ciclo se encuentra un *n*, debe encontrar una cantidad *n* de elementos mayores o iguales que *n* contiguos en la columna.
+Tras obtener la matrix auxiliar, se recorre con dos ciclos for para buscar elemento por elemento la columna de tamaños sin interrumpir más grande posible. 
+
+Por ejemplo, si en la matriz auxiliar el ciclo encuentra un 2, debe buscar un elemento mayor o igual que 2 arriba o abajo. Si lo encuentra, quiere decir que existe por lo menos un cuadrado de 1s de 2x2. En (F1, C3), se ha encontrado un 2, por lo que debe buscar otro elemento mayor o igual que 2 arriba o abajo. En (F2, C3) se ha encontrado otro 2, por lo que existe por lo menos un cuadrado de 1s de 2x2. Como se ha encontrado un 2 en (F2, C3), el algoritmo busca otro elemento mayor o igual que 2 arriba (F1, C3) o abajo (F3, C3), y como se encuentra un 3 en (F3, C3), se ha encontrado otro cuadrado de 1s de 2x2.
+
+Si encuentra un 3, debe buscar un elemento mayor o igual que 3 arriba o abajo, y otro elemento mayor o igual que 3 contiguo al par de 3 que se encontró. Si se cumplen estos criterios, se ha encontrado un cuadrado de 1s de 3x3. En (F1, C4), se ha encontrado un 3. El algoritmo buscará otro elemento mayor o igual que 3 arriba o abajo. Se ha encontrado un 3 en (F2, C4). Prosigue con la búsqueda de otro elemento mayor o igual que 3 en una celda contigua al par de 3 que se encontró. Se ha encontrado un 4 en (F3, C4), con el cual se concluye que existe un cuadrado de 1s de 3x3.
+
+Es decir, si el ciclo se encuentra un *n*, debe encontrar una cantidad *n* de elementos mayores o iguales que *n* contiguos en la columna.
 
 ## Resultados
 
