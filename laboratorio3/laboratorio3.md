@@ -26,7 +26,7 @@ $$n!=n(n-1)(n-2)...(2)(1)$$
 
 En otras palabras, el factorial n! es la multiplicación de todos los números enteros positivos menores o igual que n.
 
-Una matriz es un arreglo de datos con importantes aplicaciones en diversos ámbitos académicos y profesionales. Una matriz de dos dimensiones *m x n* está constituida por *m* filas y *n* columnas. Si se cumple que $$m=n$$, se dice que la matriz es cuadrada.
+Una matriz es un arreglo de datos con importantes aplicaciones en diversos ámbitos académicos y profesionales. Una matriz de dos dimensiones *m x n* está constituida por *m* filas y *n* columnas. Si se cumple que $m=n$, se dice que la matriz es cuadrada.
 
 ## Implementación
 
