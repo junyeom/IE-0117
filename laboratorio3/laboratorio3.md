@@ -32,7 +32,33 @@ Una matriz es un arreglo de datos con importantes aplicaciones en diversos ámbi
 
 ### Ejercicio 1
 
+Una manera de abordar este problema es mediante el uso de un ciclo for. Los ciclos for reciben:
 
+* Una condición inicial
+* Una condición de salida
+* Un iterador
+
+Se conoce que el primer número triangular es cero:
+
+$$T_{1}=0$$
+
+Como el primer elemento es un 0, es conveniente iniciar el ciclo con un 0. Además, es conveniente declarar una variable que vaya almacenando la suma de todos los elementos menores o igual que n. La condición de salida ocurre cuando se encuentren los primeros 100 números triangulares.
+
+Para obtener el segundo número triangular, al primer número triangular se le suma el primer número triangular más 1. Entonces:
+
+$$T_{2}=0+1=1$$
+
+Para obtener el tercer número triangular, a la suma del primer número triangular más el segundo número triangular se le suma el segundo número triangular más 1. Entonces:
+
+$$T_{3}=T_{1}+T_{2}+(T_{2}+1)=0+1+2=3$$
+
+Para ilustrar que la secuencia no es una función rectilínea, se obtiene el cuarto número triangular:
+
+$$T_{4}=T_{1}+T_{2}+T_{3}+(T_{3}+1)=0+1+2+3=6$$
+
+Así sucesivamente hasta obtener $T_{100}$.
+
+En C, el operador ++ permite ir guardando el resultado de las sumas previas en una variable, por lo que al utilizarlo dentro del ciclo for, es posible implementar en código la idea descrita anteriormente.
 
 ### Ejercicio 2
 
