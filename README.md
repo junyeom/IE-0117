@@ -2,7 +2,7 @@
 
 <div align="center">
     <img src="images/KR.png" width="200" height="200">
-  <h4 align="center">Taegeuk</h4>
+  <h3 align="center">Taegeuk</h3>
   <p align="center">
     Símbolo de la cultura coreana
   </p>
@@ -14,8 +14,8 @@ Soy médico graduado de la Universidad de Costa Rica.
 Actualmente estudio Ingeniería Eléctrica.
 
 <div align="center">
-    <img src="images/UCR.png" width="200" height="200">
-  <h4 align="center">Universidad de Costa Rica</h4>
+    <img src="images/UCR.jpg" width="200" height="200">
+  <h3 align="center">Universidad de Costa Rica</h3>
   <p align="center">
     Institución Benemérita de la Educación y la Cultura Costarricense
   </p>
