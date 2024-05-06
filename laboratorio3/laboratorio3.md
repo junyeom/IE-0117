@@ -128,15 +128,15 @@ Para no mostrar todos los 100 números, se muestran los primeros 10 y los últim
 Al compilar el archivo ej2A.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
 <div align="center">
-  <img src="images/ej2A.png" width="400" height="70">
-  <h4 align="center">Figura 3. Ejecución de ej2A.c.</h4>
+  <img src="images/ej2A.png" width="400" height="60">
+  <h4 align="center">Figura 4. Ejecución de ej2A.c.</h4>
 </div>
 
 Al compilar el archivo ej2B.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
 <div align="center">
-  <img src="images/ej2B.png" width="400" height="70">
-  <h4 align="center">Figura 4. Ejecución de ej2B.c.</h4>
+  <img src="images/ej2B.png" width="400" height="60">
+  <h4 align="center">Figura 5. Ejecución de ej2B.c.</h4>
 </div>
 
 ### Ejercicio 3
@@ -145,7 +145,7 @@ Al compilar el archivo ej3A.c y correr el ejecutable, se obtiene el siguiente re
 
 <div align="center">
   <img src="images/ej3A.png" width="400" height="400">
-  <h4 align="center">Figura 5. Ejecución de ej3A.c.</h4>
+  <h4 align="center">Figura 6. Ejecución de ej3A.c.</h4>
 </div>
 
 ## Conclusiones
