@@ -148,7 +148,7 @@ Tras haber corregido el error, se implementó exitosamente un scanf para solicit
 Al compilar el archivo ej3A.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
 <div align="center">
-  <img src="images/caso3x3.png" width="400" height="300">
+  <img src="images/caso3x3.png" width="400" height="270">
   <h4 align="center">Figura 6. Ejecución de ej3A.c.</h4>
 </div>
 
