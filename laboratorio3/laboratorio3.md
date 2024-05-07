@@ -148,7 +148,7 @@ Tras haber corregido el error, se implementó exitosamente un scanf para solicit
 Al compilar el archivo ej3A.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
 <div align="center">
-  <img src="images/caso3x3.png" width="400" height="200">
+  <img src="images/caso3x3.png" width="400" height="300">
   <h4 align="center">Figura 6. Ejecución de ej3A.c.</h4>
 </div>
 
@@ -162,7 +162,7 @@ En el archivo ej3B.c, el código anterior ha sufrido varias modificaciones para 
 Utilizando una implementación similar al anterior, se ejecutan varias pruebas, y se obtienen los siguientes resultados:
 
 <div align="center">
-  <img src="images/caso9x9.png" width="400" height="300">
+  <img src="images/caso9x9.png" width="400" height="350">
   <h4 align="center">Figura 7. Ejecución de ej3B.c con n=9.</h4>
 </div>
 
