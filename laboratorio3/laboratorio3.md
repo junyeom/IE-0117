@@ -168,7 +168,7 @@ Utilizando una implementación similar al anterior, se ejecutan varias pruebas, 
 
 <div align="center">
   <img src="images/caso10x10.png" width="400" height="400">
-  <h4 align="center">Figura 6. Ejecución de ej3B.c con n=10.</h4>
+  <h4 align="center">Figura 8. Ejecución de ej3B.c con n=10.</h4>
 </div>
 
 Sin embargo, para n menores de 9, el código genera un comportamiento errático.
