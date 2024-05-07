@@ -148,7 +148,7 @@ Tras haber corregido el error, se implementó exitosamente un scanf para solicit
 Al compilar el archivo ej3A.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
 <div align="center">
-  <img src="images/caso3x3.png" width="400" height="270">
+  <img src="images/caso3x3.png" width="400" height="240">
   <h4 align="center">Figura 6. Ejecución de ej3A.c.</h4>
 </div>
 
@@ -175,3 +175,7 @@ Sin embargo, para n menores de 9, el código genera un comportamiento errático.
 
 ## Conclusiones
 
+* El lenguaje de programación C posee características de bajo nivel y de alto nivel. Al realizar este laboratorio, fue posible interactuar con dicho lenguaje a un alto nivel, porque los ejercicios, especialmente el ejercicio 3, requirió de un nivel de abstracción alto.
+* Los ejercicios poseían un nivel de dificultad matemático relativamente bajo, sin embargo, la complejidad matemática de un problema no necesariamente correlaciona con la complejidad de resolver dicho problema mediante la programación.
+* El ejercicio 3 tuvo una gran dificultad de implementación. El resultado del código del archivo ej3A.c fue satisfactorio, sin embargo los resultados del código del archivo ej3B.c fueron dudosos.
+* Un mayor nivel de abstracción en las condicionales podría simplificar el código, aunque los resultados dudosos aparentan provenir del algoritmo planteado para este ejercicio.
