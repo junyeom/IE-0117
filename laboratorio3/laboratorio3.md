@@ -148,9 +148,30 @@ Tras haber corregido el error, se implementó exitosamente un scanf para solicit
 Al compilar el archivo ej3A.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
 <div align="center">
-  <img src="images/ej3A.png" width="400" height="400">
+  <img src="images/caso3x3.png" width="400" height="200">
   <h4 align="center">Figura 6. Ejecución de ej3A.c.</h4>
 </div>
+
+El código identifica correctamente el tamaño del cuadrado más grande de 1s.
+
+En el archivo ej3B.c, el código anterior ha sufrido varias modificaciones para cumplir con las especificaciones deseadas:
+
+* El usuario ingresa un número n. Si n es menor que 1 o mayor que 10, se utiliza un valor por defecto.
+* La matriz se llena de 0s y 1s de manera aleatoria.
+
+Utilizando una implementación similar al anterior, se ejecutan varias pruebas, y se obtienen los siguientes resultados:
+
+<div align="center">
+  <img src="images/caso9x9.png" width="400" height="300">
+  <h4 align="center">Figura 7. Ejecución de ej3B.c con n=9.</h4>
+</div>
+
+<div align="center">
+  <img src="images/caso10x10.png" width="400" height="400">
+  <h4 align="center">Figura 6. Ejecución de ej3B.c con n=10.</h4>
+</div>
+
+Sin embargo, para n menores de 9, el código genera un comportamiento errático.
 
 ## Conclusiones
 
