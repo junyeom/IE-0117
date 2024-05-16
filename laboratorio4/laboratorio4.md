@@ -18,15 +18,15 @@ En este laboratorio, se exploran los siguientes conceptos:
 * Recursividad
 * Punteros
 
-A diferencia de la búsqueda lineal, el cual consiste en buscar en el arreglo elemento por elemento hasta encontrar un valor específico, la **búsqueda binaria** es un algoritmo que divide el arreglo a la mitad antes de ejecutar la búsqueda. Para que este algoritmo funcione, el arreglo debe estar ordenado. La búsqueda binaria busca un valor específico comparándolo con el valor posicionado en la mitad del arreglo. Si ocurre una correspondencia, se retorna el índice del elemento. Si el valor específico es mayor que el valor del elemento en el medio, se busca la mitad derecha del arreglo. Si el valor específico es menor que el valor del elemento en el medio, se busca la mitad izquierda del arreglo. Este proceso se repite hasta que el tamaño del arreglo sea cero.
+A diferencia de la búsqueda lineal, el cual consiste en buscar en el arreglo elemento por elemento hasta encontrar un valor específico, la **búsqueda binaria** es un algoritmo que divide el arreglo a la mitad antes de ejecutar la búsqueda. Para que este algoritmo funcione, el arreglo debe estar ordenado. La búsqueda binaria busca un valor específico comparándolo con el valor posicionado en la mitad del arreglo. Si ocurre una correspondencia, se retorna el índice del elemento. Si el valor específico es mayor que el valor del elemento en el medio, se busca la mitad derecha del arreglo. Si el valor específico es menor que el valor del elemento en el medio, se busca la mitad izquierda del arreglo. Este proceso se repite hasta que el tamaño del arreglo sea cero. (1)
 
-La **recursividad** es un proceso en el cual una función se llama a sí misma. A diferencia de la iteración, la recursividad requiere una condición de salida, porque de lo contrario entra a un ciclo infinito. A pesar de que tiene el potencial de reducir el tamaño del código, la recursividad tiene la desventaja de requerir más recursos del procesador, porque involucra múltiples llamadas IO a la función. Ejemplos clásicos de funciones que se pueden implementar utilizando recursividad son:
+La **recursividad** es un proceso en el cual una función se llama a sí misma. A diferencia de la iteración, la recursividad requiere una condición de salida, porque de lo contrario entra a un ciclo infinito. A pesar de que tiene el potencial de reducir el tamaño del código, la recursividad tiene la desventaja de requerir más recursos del procesador, porque involucra múltiples llamadas IO a la función. Ejemplos clásicos de funciones que se pueden implementar utilizando recursividad son: (2)
 
 * La operación factorial
 * Búsqueda binaria
 * Serie de Fibonacci
 
-Un **puntero** es una variable que almacena la referencia a otra variable, la cual puede ser cualquier tipo de dato:
+Un **puntero** es una variable que almacena la referencia a otra variable, la cual puede ser cualquier tipo de dato (3):
 
 * int
 * float
@@ -113,28 +113,32 @@ Al compilar el archivo ej1A.c y correr el ejecutable, se obtiene el siguiente re
 
 <div align="center">
   <img src="images/ej1A.png" width="400" height="100">
-  <h4 align="center">Figura 1.</h4>
+  <h4 align="center">Figura 1. Resultado de la ejecución de ej1A.c</h4>
 </div>
+
+Se obtiene exitosamente el resultado esperado, incluso cuando se ingresa un valor que no pertenece al arreglo.
 
 Al compilar el archivo ej1B.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
 <div align="center">
   <img src="images/ej1B.png" width="400" height="150">
-  <h4 align="center">Figura 2. </h4>
+  <h4 align="center">Figura 2. Resultado de la ejecución de ej1B.c</h4>
 </div>
+
+Se obtiene exitosamente el resultado esperado, incluso cuando se ingresa un valor que no pertenece al arreglo.
 
 Al compilar el archivo ej1C.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
 <div align="center">
   <img src="images/ej1C.png" width="400" height="400">
-  <h4 align="center">Figura 3. </h4>
+  <h4 align="center">Figura 3. Resultado de la ejecución de ej1C.c</h4>
 </div>
 
 Sin embargo, al ingresar un valor que no pertenece al arreglo, se obtiene un segmentation fault:
 
 <div align="center">
   <img src="images/ej1C_error.png" width="400" height="100">
-  <h4 align="center">Figura 4. </h4>
+  <h4 align="center">Figura 4. Error al ingresar un valor incorrecto.</h4>
 </div>
 
 ### Ejercicio 2
@@ -143,15 +147,19 @@ Al compilar el archivo ej2A.c y correr el ejecutable, se obtiene el siguiente re
 
 <div align="center">
   <img src="images/ej2A.png" width="400" height="100">
-  <h4 align="center">Figura 5.</h4>
+  <h4 align="center">Figura 5. Resultado de la ejecución de ej2A.c</h4>
 </div>
+
+Se obtiene exitosamente el resultado esperado.
 
 Al compilar el archivo ej2B.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
 <div align="center">
-  <img src="images/ej2B.png" width="400" height="60">
-  <h4 align="center">Figura 6. </h4>
+  <img src="images/ej2B.png" width="400" height="50">
+  <h4 align="center">Figura 6. Resultado de la ejecución de ej2B.c</h4>
 </div>
+
+También se obtiene exitosamente el resultado esperado.
 
 ## Conclusiones
 
@@ -165,6 +173,6 @@ Al compilar el archivo ej2B.c y correr el ejecutable, se obtiene el siguiente re
 
 ## Referencias
 
-https://www.tutorialspoint.com/data_structures_algorithms/binary_search_algorithm.htm
-https://www.tutorialspoint.com/cprogramming/c_recursion.htm
-https://www.tutorialspoint.com/cprogramming/c_pointers.htm
+1. TutorialsPoint. Binary Search Algorithm. Accesado el 14 de mayo del 2024 en https://www.tutorialspoint.com/data_structures_algorithms/binary_search_algorithm.htm
+2. TutorialsPoint. Recursion in C. Accesado el 14 de mayo del 2024 en https://www.tutorialspoint.com/cprogramming/c_recursion.htm
+3. TutorialsPoint. Pointers in C. Accesado el 14 de mayo del 2024 en https://www.tutorialspoint.com/cprogramming/c_pointers.htm
