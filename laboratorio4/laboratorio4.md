@@ -142,14 +142,14 @@ Sin embargo, al ingresar un valor que no pertenece al arreglo, se obtiene un seg
 Al compilar el archivo ej2A.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
 <div align="center">
-  <img src="images/ej2A.png" width="400" height="400">
+  <img src="images/ej2A.png" width="400" height="100">
   <h4 align="center">Figura 5.</h4>
 </div>
 
 Al compilar el archivo ej2B.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
 <div align="center">
-  <img src="images/ej2B.png" width="400" height="400">
+  <img src="images/ej2B.png" width="400" height="80">
   <h4 align="center">Figura 6. </h4>
 </div>
 
