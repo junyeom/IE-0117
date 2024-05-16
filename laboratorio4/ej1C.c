@@ -1,25 +1,21 @@
 #include <stdio.h>
 
 /*
-La función binSearch recibe cuatro variables: el arreglo,
-el "piso" del arreglo, el "techo" del arreglo y el valor
-ingresado por el usuario.
+La función binSearch de este programa posee una lógica de
+implementación muy similar al del programa ej1B.c. La diferencia
+es que en este programa se ha utilizado recursividad.
 
-Nótese que el ciclo while correrá hasta que se le imponga 
-un break, porque se le ha pasado una condición que siempre 
-es verdadera, es decir, 1.
+El único cambio que se requiere es que, en lugar de redefinir
+el "piso" y el "techo" del arreglo explícitamente, se vuelve a
+llamar a la función, y se le pasa el nuevo "piso" o el nuevo
+"techo" a través de argumentos.
 
-Si se encuentra el valor ingresado por el usuario en la mitad
-del arreglo, se termina la ejecución de la función y retorna
-la posición (caso base). 
-
-Si el valor ingresado es mayor que el valor en la mitad, 
-la celda inmediatamente superior a la mitad se convierte en
-el nuevo "piso". Si el valor ingresado es menor que el valor
-en la mitad, la celta inmediatamente inferior a la mitad
-se convierte en el nuevo "techo". Esto ocurre hasta que la
-función retorne la posición del valor, o hasta que se cumpla 
-la condición de break.
+Si el valor ingresado es mayor que el valor en la mitad del arreglo,
+se pasa como argumento la redefinición del "piso" (el "piso" sube
+porque la mitad inferior es irrelevante). Si el valor ingresado
+es menor que el valor en la mitad del arreglo, se pasa como argumento
+la redefinición del "techo" (el "techo" baja porque la mitad superior
+es irrelevante).
 */
 
 int binSearch (int array[], int floor, int ceiling, int value){
@@ -33,11 +29,11 @@ int binSearch (int array[], int floor, int ceiling, int value){
         }
 
         if (value > array[middle]){
-            floor = middle + 1;
+            return binSearch (array, middle + 1, ceiling, value);
         }
 
         if (value < array[middle]){
-            ceiling = middle - 1;
+            return binSearch (array, floor, middle - 1, value);
         }
 
         if (floor > ceiling){
@@ -57,7 +53,7 @@ int main(){
     int piso = 0;
     int techo = tamanoArreglo - 1;
     int valor = 0;
-    int i=0;
+    int i;
 
     // Scan del valor ingresado
 
