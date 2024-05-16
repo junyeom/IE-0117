@@ -95,9 +95,15 @@ Usted decide ir al piso 3. y ve el número 19 pintado en un mural. Lo compara co
 
 Nota que su *FLOOR* y su *CEILING* son iguales. Se dirige al piso 4, y encuentra el número 25 pintado en un mural. Es su número. Ha encontrado el piso del edificio en donde está su número.
 
+*Si en la condición FLOOR = CEILING no se logra encontrar el valor buscado, la implementación debe informar al usuario de que el valor ingresado no se encuentra en ninguna posición del arreglo*
+
 ### Ejercicio 2
 
+Para inspeccionar un arreglo de una dimensión, basta implementar un ciclo for.
 
+Para encontrar el valor mínimo de un arreglo, se puede construir una función findMin que vaya almacenando el menor valor encontrado en cada iteración hasta llegar al último elemento del arreglo. De la misma manera, para encontrar el valor máximo de un arrelo, se puede construir una función findMax que vaya almacenando el mayor valor encontrado en cada iteración hasta llegar al último elemento del arreglo.
+
+Para la implementación de la función findMin y de la función findMax, se utilizan dos funciones diferentes para poder retornar el valor mínimo y el valor máximo por aparte. Sin embargo, con el uso de punteros, es posible retornar más de un valor usando sólo una función.
 
 ## Resultados
 
