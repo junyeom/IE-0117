@@ -58,5 +58,12 @@ Al compilar el archivo ej2B.c y correr el ejecutable, se obtiene el siguiente re
   <h4 align="center">Figura 4. </h4>
 </div>
 
+Al compilar el archivo ej2C.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
+
+<div align="center">
+  <img src="images/ej2C.png" width="400" height="400">
+  <h4 align="center">Figura 5. </h4>
+</div>
+
 ## Conclusiones
 
