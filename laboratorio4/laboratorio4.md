@@ -119,7 +119,7 @@ Al compilar el archivo ej1A.c y correr el ejecutable, se obtiene el siguiente re
 Al compilar el archivo ej1B.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
 <div align="center">
-  <img src="images/ej1B.png" width="400" height="180">
+  <img src="images/ej1B.png" width="400" height="150">
   <h4 align="center">Figura 2. </h4>
 </div>
 
