@@ -103,7 +103,7 @@ Para inspeccionar un arreglo de una dimensión, basta implementar un ciclo for.
 
 Para encontrar el valor mínimo de un arreglo, se puede construir una función findMin que vaya almacenando el menor valor encontrado en cada iteración hasta llegar al último elemento del arreglo. De la misma manera, para encontrar el valor máximo de un arrelo, se puede construir una función findMax que vaya almacenando el mayor valor encontrado en cada iteración hasta llegar al último elemento del arreglo.
 
-Para la implementación de la función findMin y de la función findMax, se utilizan dos funciones diferentes para poder retornar el valor mínimo y el valor máximo por aparte. Sin embargo, con el uso de punteros, es posible retornar más de un valor usando sólo una función.
+Para la implementación de la función findMin y de la función findMax, se utilizan dos funciones diferentes para poder retornar el valor mínimo y el valor máximo por aparte. Sin embargo, con el uso de punteros, es posible retornar más de un valor usando sólo una función. Se implementa una lógica similiar a la utilizada en las funciones findMin y findMax, pero en este caso no es necesario retornar valores, porque los mismos punteros almacenan los datos en la dirección de las variables.
 
 ## Resultados
 
