@@ -76,6 +76,25 @@ Usted llega al piso 5, y ve el número 40 pintado en un mural. Lo compara con su
 |1|2|7|
 |0|1|5|
 
+Usted decide repetir su estrategia, pero tiene que decidir si ir al piso 2 o al piso 3, porque, en una distribución par de pisos, existen dos pisos en el medio. En este caso, decide ir al piso 2.
+
+*En C, al inicializar una variable de tipo entero y realizarle una división con residuo, dicha variable adopta el valor de la parte entera*
+
+Usted llega al piso 2, y ve el número 7 pintado en un mural. Lo compara con su número, y determina que no son iguales. Su número es mayor que 7. Usted determina que su *CEILING* permanece igual (piso 4), pero su *FLOOR* ahora es el piso 3, porque los pisos 2 y menores ahora son irrelevantes para usted. Ahora, el edificio es:
+
+|Índice|Piso|Número|
+|---|---|---|
+|3|4|25|
+|2|3|19|
+
+Usted decide ir al piso 3. y ve el número 19 pintado en un mural. Lo compara con su número, y determina que no son iguales. Su número es mayor que 19. Usted determina que su *CEILING* permanece igual (piso 4), pero su *FLOOR* ahora es el piso 4, porque los pisos 3 y menores ahora son irrelevantes para usted. 
+
+|Índice|Piso|Número|
+|---|---|---|
+|3|4|25|
+
+Nota que su *FLOOR* y su *CEILING* son iguales. Se dirige al piso 4, y encuentra el número 25 pintado en un mural. Es su número. Ha encontrado el piso del edificio en donde está su número.
+
 ### Ejercicio 2
 
 
