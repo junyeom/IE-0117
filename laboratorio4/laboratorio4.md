@@ -112,15 +112,29 @@ Para la implementación de la función findMin y de la función findMax, se util
 Al compilar el archivo ej1A.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
 <div align="center">
-  <img src="images/ej1A.png" width="400" height="400">
+  <img src="images/ej1A.png" width="100" height="400">
   <h4 align="center">Figura 1.</h4>
 </div>
 
 Al compilar el archivo ej1B.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
 <div align="center">
-  <img src="images/ej1B.png" width="400" height="400">
+  <img src="images/ej1B.png" width="180" height="400">
   <h4 align="center">Figura 2. </h4>
+</div>
+
+Al compilar el archivo ej1C.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
+
+<div align="center">
+  <img src="images/ej1C.png" width="400" height="400">
+  <h4 align="center">Figura 3. </h4>
+</div>
+
+Sin embargo, al ingresar un valor que no pertenece al arreglo, se obtiene un segmentation fault:
+
+<div align="center">
+  <img src="images/ej1C_error.png" width="100" height="400">
+  <h4 align="center">Figura 3. </h4>
 </div>
 
 ### Ejercicio 2
@@ -129,21 +143,14 @@ Al compilar el archivo ej2A.c y correr el ejecutable, se obtiene el siguiente re
 
 <div align="center">
   <img src="images/ej2A.png" width="400" height="400">
-  <h4 align="center">Figura 3.</h4>
+  <h4 align="center">Figura 5.</h4>
 </div>
 
 Al compilar el archivo ej2B.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
 <div align="center">
   <img src="images/ej2B.png" width="400" height="400">
-  <h4 align="center">Figura 4. </h4>
-</div>
-
-Al compilar el archivo ej2C.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
-
-<div align="center">
-  <img src="images/ej2C.png" width="400" height="400">
-  <h4 align="center">Figura 5. </h4>
+  <h4 align="center">Figura 6. </h4>
 </div>
 
 ## Conclusiones
