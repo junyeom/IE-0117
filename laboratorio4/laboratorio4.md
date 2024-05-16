@@ -149,13 +149,22 @@ Al compilar el archivo ej2A.c y correr el ejecutable, se obtiene el siguiente re
 Al compilar el archivo ej2B.c y correr el ejecutable, se obtiene el siguiente resultado en la línea de comando:
 
 <div align="center">
-  <img src="images/ej2B.png" width="400" height="80">
+  <img src="images/ej2B.png" width="400" height="60">
   <h4 align="center">Figura 6. </h4>
 </div>
 
 ## Conclusiones
 
+* El algoritmo de búsqueda binaria logra encontrar un elemento en una menor cantidad de iteraciones que el algoritmo de búsqueda lineal.
 
+* La recursividad es una propiedad matemática con diversas aplicaciones que permite simplificar el código de un programa. Sin embargo, un código de menor tamaño no necesariamente se traduce en un menor uso de recursos.
+
+* Aplicar la misma lógica pero con diferentes algoritmos puede generar errores. Por ejemplo, en la ejecución de ej1B.c (búsqueda lineal sin recursividad), al ingresar un valor que no pertenece al arreglo, se imprime el mensaje de excepción. Sin embargo, en la ejecución de ej1C.c (búsqueda lineal con recursividad), al ingresar un valor que no pertenece al arreglo, se comete un segmentation fault.
+
+* Los punteros son útiles para acceder a datos en la memoria sin tener que llamar a las variables. Además, mediante el uso de punteros es posible ejecutar la funcionalidad de varias funciones en una sola.
 
 ## Referencias
 
+https://www.tutorialspoint.com/data_structures_algorithms/binary_search_algorithm.htm
+https://www.tutorialspoint.com/cprogramming/c_recursion.htm
+https://www.tutorialspoint.com/cprogramming/c_pointers.htm
