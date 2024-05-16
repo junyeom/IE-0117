@@ -47,7 +47,34 @@ Existen dos operadores que merecen especial mención:
 
 ### Ejercicio 1
 
+Implementar una búsqueda lineal de un arreglo requiere solamente de un ciclo for con una condición if adentro. Si el ciclo for encuentra el valor ingresado por el usuario, retorna la posición en donde encontró dicho valor. Si no, le informa al usuario de que no encontró el valor ingresado en el arreglo.
 
+Para la implementación de la búsqueda binaria, realice el siguiente experimento mental. Imagine un edificio de 9 pisos. Usted dispone de un ascensor, y tiene en su mano un papel con un número. En cada piso, hay un mural con un número pintado, pero usted desconoce los números pintados en cada piso. Conoce que, a mayor altura, mayor es el número pintado. Su objetivo es encontrar el piso donde está su número.
+
+Inicialmente, su *FLOOR* es el piso 1 del edificio, y su *CEILING* es el piso 9 del edificio, porque usted no tiene suficiente información para descartar pisos.
+
+Usted decide iniciar en el punto medio del edificio, que en este caso es el piso 5.
+
+|Índice|Piso|Número|
+|---|---|---|
+|8|9|101|
+|7|8|95|
+|6|7|67|
+|5|6|42|
+|4|5|40|
+|3|4|25|
+|2|3|19|
+|1|2|7|
+|0|1|5|
+
+Usted llega al piso 5, y ve el número 40 pintado en un mural. Lo compara con su número, y determina que no son iguales. Su número es menor que 40. Usted determina que su *FLOOR* permanece igual, pero su *CEILING* ahora es el piso 4, porque los pisos 5 y mayores ahora son irrelevantes para usted. Para su objetivo, el edificio ahora es un edificio de 4 pisos.
+
+|Índice|Piso|Número|
+|---|---|---|
+|3|4|25|
+|2|3|19|
+|1|2|7|
+|0|1|5|
 
 ### Ejercicio 2
 
