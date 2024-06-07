@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/junyeom/IE-0117">
-    <img src="images/five.png" alt="Programación" width="80" height="80">
+    <img src="images/five.png" alt="Programación" width="150" height="150">
   </a>
 
   <h3 align="center">Laboratorio 5</h3>
@@ -61,38 +61,59 @@ printListForward recorre e imprime la lista resultante de inicio a fin, mientras
 Al ejecutar el comando make en la terminal, se compilan los archivos utilizando el archivo Makefile, y se genera un ejecutable llamado main.
 
 <div align="center">
-  <img src="images/1.png" width="400" height="100">
+  <img src="images/1.png">
   <h4 align="center">Figura 1. </h4>
 </div>
 
 <div align="center">
-  <img src="images/2.png" width="400" height="150">
+  <img src="images/2.png">
   <h4 align="center">Figura 2. </h4>
 </div>
 
 <div align="center">
-  <img src="images/3.png" width="400" height="400">
+  <img src="images/3.png">
   <h4 align="center">Figura 3. </h4>
 </div>
 
 <div align="center">
-  <img src="images/4.png" width="400" height="100">
+  <img src="images/4.png">
   <h4 align="center">Figura 4. </h4>
 </div>
 
 <div align="center">
-  <img src="images/5.png" width="400" height="100">
+  <img src="images/5.png">
   <h4 align="center">Figura 5. </h4>
 </div>
 
 <div align="center">
-  <img src="images/6.png" width="400" height="50">
+  <img src="images/6.png">
   <h4 align="center">Figura 6. </h4>
+</div>
+
+<div align="center">
+  <img src="images/7.png">
+  <h4 align="center">Figura 7. </h4>
+</div>
+
+<div align="center">
+  <img src="images/8.png">
+  <h4 align="center">Figura 8. </h4>
+</div>
+
+<div align="center">
+  <img src="images/9.png">
+  <h4 align="center">Figura 9. </h4>
+</div>
+
+<div align="center">
+  <img src="images/10.png">
+  <h4 align="center">Figura 10. </h4>
 </div>
 
 ## Conclusiones
 
-* 
+* La memoria dinámica optimiza el uso de la memoria haciendo máximo uso de los recursos disponibles y evitando memory leaks
+* Las listas doblemente enlazadas integran la aplicación de diferentes conceptos: punteros, listas enlazadas, memoria dinámica y operaciones lógico-aritméticas.
 
 ## Referencias
 
