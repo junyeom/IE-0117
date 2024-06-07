@@ -125,6 +125,13 @@ Tras la operación de eliminación, se aprecia el recorrido e impresión hacia a
 Como 22 sí está en la lista, el programa imprime su posición.
 Como 23 no está en la lista, imprime un mensaje de no encontrado.
 
+<div align="center">
+  <img src="images/11.png">
+  <h4 align="center">Figura 11. Ejecución de valgrind.</h4>
+</div>
+
+Finalmente, al ejecutar valgrind, se evidencia que este programa no tiene memory leaks.
+
 ## Conclusiones
 
 * La memoria dinámica optimiza el uso de la memoria haciendo máximo uso de los recursos disponibles y evitando memory leaks
