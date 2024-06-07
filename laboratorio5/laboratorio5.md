@@ -60,55 +60,70 @@ printListForward recorre e imprime la lista resultante de inicio a fin, mientras
 
 Al ejecutar el comando make en la terminal, se compilan los archivos utilizando el archivo Makefile, y se genera un ejecutable llamado main.
 
+Al ejecutar main, se obtienen los siguientes resultados:
+
 <div align="center">
   <img src="images/1.png">
-  <h4 align="center">Figura 1. </h4>
+  <h4 align="center">Figura 1. Inserción de un 5 al inicio de la lista.</h4>
 </div>
 
 <div align="center">
   <img src="images/2.png">
-  <h4 align="center">Figura 2. </h4>
+  <h4 align="center">Figura 2. Inserción de un 9 al inicio de la lista.</h4>
 </div>
 
 <div align="center">
   <img src="images/3.png">
-  <h4 align="center">Figura 3. </h4>
+  <h4 align="center">Figura 3. Inserción de un 22 al inicio de la lista.</h4>
 </div>
+
+Se ha logrado demostrar exitosamente la funcionalidad de insertBeginning. Se aprecia que insertBeginning respeta el orden de los nodos, y actualiza el nodo que encabeza la lista.
 
 <div align="center">
   <img src="images/4.png">
-  <h4 align="center">Figura 4. </h4>
+  <h4 align="center">Figura 4. Inserción de un 100 al final de la lista. </h4>
 </div>
 
 <div align="center">
   <img src="images/5.png">
-  <h4 align="center">Figura 5. </h4>
+  <h4 align="center">Figura 5. Inserción de un 236 al final de la lista.</h4>
 </div>
+
+Se ha logrado demostrar exitosamente la funcionalidad de insertEnding. Esta función también respeta el orden de los nodos. En este caso, no es necesario actualizar el nodo que encabeza la lista.
 
 <div align="center">
   <img src="images/6.png">
-  <h4 align="center">Figura 6. </h4>
+  <h4 align="center">Figura 6. Inserción de un 50 inmediatamente después del nodo índice 1.</h4>
 </div>
+
+El nodo índice 1 es el nodo que contiene al 9. insertAtIndex inserta un 50 inmediatamente después de dicho nodo.
 
 <div align="center">
   <img src="images/7.png">
-  <h4 align="center">Figura 7. </h4>
+  <h4 align="center">Figura 7. Inserción de un 100 inmediatamente después del nodo índice 3.</h4>
 </div>
+
+El nodo índice 3 es el nodo que contiene al 5. insertAtIndex inserta un 100 inmediatamente después de dicho nodo.
 
 <div align="center">
   <img src="images/8.png">
-  <h4 align="center">Figura 8. </h4>
+  <h4 align="center">Figura 8. Eliminación del nodo duplicado.</h4>
 </div>
+
+Tras la operación de eliminación, se aprecia el recorrido e impresión hacia adelante de la lista resultante.
 
 <div align="center">
   <img src="images/9.png">
-  <h4 align="center">Figura 9. </h4>
+  <h4 align="center">Figura 9. Recorrido e impresión hacia atrás de la lista resultante.</h4>
 </div>
 
 <div align="center">
   <img src="images/10.png">
-  <h4 align="center">Figura 10. </h4>
+  <h4 align="center">Figura 10. Búsqueda de elementos en la lista.</h4>
 </div>
+
+Como 22 sí está en la lista, el programa imprime su posición.
+Como 23 no está en la lista, imprime un mensaje de no encontrado.
 
 ## Conclusiones
 
