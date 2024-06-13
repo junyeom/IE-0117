@@ -34,7 +34,7 @@ Se solicita la implementación de las siguientes funciones:
 
 Adicionalmente, se solicita la impresión de la lista (printStack) para demostrar la funcionalidad de las funciones, y una función que libere la memoria asignada para evitar memory leaks (freeStack).
 
-# push()
+### push()
 
 Esta función requiere dos parámetros: un puntero doble que apunte al nodo de referencia, y el dato que será ingresado a la lista.
 
