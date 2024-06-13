@@ -16,6 +16,13 @@ En este laboratorio, se exploran los siguientes conceptos:
 
 * Stack
 
+El **stack** (o **pila** en español) es una estructura de datos lineal en el cual los datos se almacenan utilizando el principio de Last In First Out (LIFO), es decir, el último dato en entrar es el primer dato en salir. Se puede representar utilizando arrays, para implementar un stack de tamaño estático, o utilizando listas, para implementar un stack de tamaño dinámico. En este laboratorio se ha implementado un stack utilizando listas doblemente enlazadas.
+
+<div align="center">
+  <img src="images/stack.jpg">
+  <h4 align="center">Figura 1. Ilustración del stack.</h4>
+</div>
+
 ## Implementación
 
 
@@ -25,11 +32,6 @@ En este laboratorio, se exploran los siguientes conceptos:
 Al ejecutar el comando make en la terminal, se compilan los archivos utilizando el archivo Makefile, y se genera un ejecutable llamado main.
 
 Al ejecutar main, se obtienen los siguientes resultados:
-
-<div align="center">
-  <img src="images/1.png">
-  <h4 align="center">Figura 1. </h4>
-</div>
 
 <div align="center">
   <img src="images/2.png">
@@ -89,4 +91,4 @@ Finalmente, al ejecutar valgrind, se evidencia que este programa no tiene memory
 
 ## Referencias
 
-1.
+1. Tutorials Point. Accesado el 12 de junio del 2024 en https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm
