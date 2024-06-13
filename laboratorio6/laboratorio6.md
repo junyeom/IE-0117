@@ -35,52 +35,37 @@ Al ejecutar main, se obtienen los siguientes resultados:
 
 <div align="center">
   <img src="images/2.png">
-  <h4 align="center">Figura 2. </h4>
+  <h4 align="center">Figura 2. Primera ejecución de la función isEmpty.</h4>
 </div>
 
 <div align="center">
   <img src="images/3.png">
-  <h4 align="center">Figura 3. </h4>
+  <h4 align="center">Figura 3. Cuatro ejecuciones consecutivas de la función push.</h4>
 </div>
 
 <div align="center">
   <img src="images/4.png">
-  <h4 align="center">Figura 4. </h4>
+  <h4 align="center">Figura 4. Ejecuciones alternantes de las funciones peek y pop.</h4>
 </div>
 
 <div align="center">
   <img src="images/5.png">
-  <h4 align="center">Figura 5. </h4>
+  <h4 align="center">Figura 5. Segunda ejecución de la función isEmpty.</h4>
 </div>
 
 <div align="center">
   <img src="images/6.png">
-  <h4 align="center">Figura 6. </h4>
+  <h4 align="center">Figura 6. Impresión de la lista resultante.</h4>
 </div>
 
 <div align="center">
   <img src="images/7.png">
-  <h4 align="center">Figura 7. </h4>
+  <h4 align="center">Figura 7. Tercera ejecución de la función isEmpty.</h4>
 </div>
 
 <div align="center">
   <img src="images/8.png">
-  <h4 align="center">Figura 8. </h4>
-</div>
-
-<div align="center">
-  <img src="images/9.png">
-  <h4 align="center">Figura 9. </h4>
-</div>
-
-<div align="center">
-  <img src="images/10.png">
-  <h4 align="center">Figura 10. </h4>
-</div>
-
-<div align="center">
-  <img src="images/11.png">
-  <h4 align="center">Figura 11. Ejecución de valgrind.</h4>
+  <h4 align="center">Figura 8. Ejecución de valgrind.</h4>
 </div>
 
 Finalmente, al ejecutar valgrind, se evidencia que este programa no tiene memory leaks.

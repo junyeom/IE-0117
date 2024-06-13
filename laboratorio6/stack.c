@@ -71,11 +71,11 @@ void isEmpty (Node * lastIn) {
     // Si el último nodo de la lista es NULL, quiere decir
     // que la lista está vacía.
     if (lastIn == NULL) {
-        printf ("No hay elementos en el Stack.\n");
+        printf ("\nNo hay elementos en el Stack.\n");
     }
     // En cualquier otro caso, la lista no está vacía.
     else {
-        printf ("Sí hay elementos en el Stack.\n");
+        printf ("\nSí hay elementos en el Stack.\n");
     }
 }
 
@@ -86,7 +86,7 @@ void printStack (Node ** lastIn) {
     Node * hold = * lastIn;
 
     if (hold == NULL) {
-        printf ("No hay elementos en el Stack.\n");
+        printf ("\nNo hay elementos en el Stack.\n");
     }
     else {
         while (hold != NULL) {

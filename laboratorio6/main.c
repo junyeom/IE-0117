@@ -23,25 +23,23 @@ int main () {
     Node * lastIn = NULL;
 
     isEmpty (lastIn);
-    printStack (&lastIn);
 
     push (7, &lastIn);
     push (11, &lastIn);
     push (13, &lastIn);
     push (17, &lastIn);
 
-    isEmpty (lastIn);
     printStack(&lastIn);
 
-    printf("El último dato ingresado al Stack es: %d\n", (peek(&lastIn)));
+    printf("\nEl último dato ingresado al Stack es: %d\n", (peek(&lastIn)));
 
-    printf("Se eliminó el último dato ingresado al Stack: %d\n", pop (&lastIn));
+    printf("\nSe eliminó el último dato ingresado al Stack: %d\n", pop (&lastIn));
 
-    printf("El último dato ingresado al Stack es: %d\n", (peek(&lastIn)));
+    printf("\nEl último dato ingresado al Stack es: %d\n", (peek(&lastIn)));
 
-    printf("Se eliminó el último dato ingresado al Stack: %d\n", pop (&lastIn));
+    printf("\nSe eliminó el último dato ingresado al Stack: %d\n", pop (&lastIn));
 
-    printf("El último dato ingresado al Stack es: %d\n", (peek(&lastIn)));
+    printf("\nEl último dato ingresado al Stack es: %d\n", (peek(&lastIn)));
 
     isEmpty (lastIn);
     printStack(&lastIn);
@@ -49,5 +47,4 @@ int main () {
     freeStack(&lastIn);
 
     isEmpty (lastIn);
-    printStack(&lastIn);
 }
