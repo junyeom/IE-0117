@@ -25,7 +25,18 @@ El **stack** (o **pila** en español) es una estructura de datos lineal en el cu
 
 ## Implementación
 
+Se solicita la implementación de las siguientes funciones:
 
+* push()
+* pop()
+* peek()
+* isEmpty()
+
+Adicionalmente, se solicita la impresión de la lista (printStack) para demostrar la funcionalidad de las funciones, y una función que libere la memoria asignada para evitar memory leaks (freeStack).
+
+# push()
+
+Esta función requiere dos parámetros: un puntero doble que apunte al nodo de referencia, y el dato que será ingresado a la lista.
 
 ## Resultados
 
